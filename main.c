@@ -82,6 +82,7 @@ int main(){
     scanf("%d", &pos);
     head = deleteNode(head, pos);
     printList(head);
+    freeList(head);
 
     return 0;
 }
